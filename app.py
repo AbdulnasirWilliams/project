@@ -7,8 +7,8 @@ monthly_hours = hours * 4
 # Printed out the total monthly hours that the user is on track to work
 print(f' You are on track to work {monthly_hours} hours this month!')
 # Created a simple error handling if a valid number is not entered
- try:
-    hours = float
+try:22
+    hours = float(hour)
 except ValueError:
-    print("Please enter a valid number")
+    print("Please enter a valid number for hours worked.")
     exit()
